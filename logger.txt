@@ -1,0 +1,61 @@
+Population size: 10, Percent Vaccinated: 0.1, Virus Name: Sniffles, Mortality Rate: 0.9, Reproduction Rate: 0.5 
+Step number: 1, Population Count: 10, Number of New Fatalities0 
+Step number: 1, Population Count: 10, Number of New Fatalities1 
+Step number: 1, Population Count: 10, Number of New Fatalities2 
+Time Step Number: 0 
+Step number: 2, Population Count: 10, Number of New Fatalities6 
+Step number: 2, Population Count: 10, Number of New Fatalities7 
+Step number: 2, Population Count: 10, Number of New Fatalities8 
+Time Step Number: 1 
+Step number: 3, Population Count: 10, Number of New Fatalities12 
+Step number: 3, Population Count: 10, Number of New Fatalities13 
+Step number: 3, Population Count: 10, Number of New Fatalities14 
+Time Step Number: 2 
+Step number: 4, Population Count: 10, Number of New Fatalities18 
+Step number: 4, Population Count: 10, Number of New Fatalities19 
+Step number: 4, Population Count: 10, Number of New Fatalities20 
+Time Step Number: 3 
+Step number: 5, Population Count: 10, Number of New Fatalities24 
+Step number: 5, Population Count: 10, Number of New Fatalities25 
+Step number: 5, Population Count: 10, Number of New Fatalities26 
+Time Step Number: 4 
+Step number: 6, Population Count: 10, Number of New Fatalities30 
+Step number: 6, Population Count: 10, Number of New Fatalities31 
+Step number: 6, Population Count: 10, Number of New Fatalities31 
+Time Step Number: 5 
+Step number: 7, Population Count: 10, Number of New Fatalities34 
+Step number: 7, Population Count: 10, Number of New Fatalities35 
+Step number: 7, Population Count: 10, Number of New Fatalities36 
+Time Step Number: 6 
+Step number: 8, Population Count: 10, Number of New Fatalities39 
+Step number: 8, Population Count: 10, Number of New Fatalities40 
+Step number: 8, Population Count: 10, Number of New Fatalities40 
+Time Step Number: 7 
+Step number: 9, Population Count: 10, Number of New Fatalities43 
+Step number: 9, Population Count: 10, Number of New Fatalities44 
+Step number: 9, Population Count: 10, Number of New Fatalities45 
+Time Step Number: 8 
+Step number: 10, Population Count: 10, Number of New Fatalities48 
+Step number: 10, Population Count: 10, Number of New Fatalities49 
+Step number: 10, Population Count: 10, Number of New Fatalities49 
+Time Step Number: 9 
+Step number: 11, Population Count: 10, Number of New Fatalities52 
+Step number: 11, Population Count: 10, Number of New Fatalities53 
+Step number: 11, Population Count: 10, Number of New Fatalities54 
+Time Step Number: 10 
+Step number: 12, Population Count: 10, Number of New Fatalities57 
+Step number: 12, Population Count: 10, Number of New Fatalities58 
+Step number: 12, Population Count: 10, Number of New Fatalities59 
+Time Step Number: 11 
+Step number: 13, Population Count: 10, Number of New Fatalities62 
+Step number: 13, Population Count: 10, Number of New Fatalities63 
+Step number: 13, Population Count: 10, Number of New Fatalities64 
+Time Step Number: 12 
+Step number: 14, Population Count: 10, Number of New Fatalities67 
+Step number: 14, Population Count: 10, Number of New Fatalities68 
+Step number: 14, Population Count: 10, Number of New Fatalities69 
+Time Step Number: 13 
+Step number: 15, Population Count: 10, Number of New Fatalities72 
+Step number: 15, Population Count: 10, Number of New Fatalities73 
+Step number: 15, Population Count: 10, Number of New Fatalities74 
+Time Step Number: 14 

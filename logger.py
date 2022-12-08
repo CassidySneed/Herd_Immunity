@@ -2,7 +2,7 @@ class Logger(object):
     def __init__(self, file_name):
         # TODO:  Finish this initialization method. The file_name passed should be the
         # full file name of the file that the logs will be written to.
-        pass
+        self.file_name = file_name
 
     # The methods below are just suggestions. You can rearrange these or 
     # rewrite them to better suit your code style. 
@@ -28,21 +28,32 @@ class Logger(object):
         # the 'a' mode to append a new log to the end, since 'w' overwrites the file.
         # NOTE: Make sure to end every line with a '/n' character to ensure that each
         # event logged ends up on a separate line!
-        pass
+        log_file = open(self.file_name, "w")
+        log_file.write(f"Population size: {pop_size}, Percent Vaccinated: {vacc_percentage}, Virus Name: {virus_name}, Mortality Rate: {mortality_rate}, Reproduction Rate: {basic_repro_num} \n")
+        log_file.close()
 
     def log_interactions(self, step_number, number_of_interactions, number_of_new_infections):
         # TODO: Finish this method. Think about how the booleans passed (or not passed)
         # represent all the possible edge cases. Use the values passed along with each person,
         # along with whether they are sick or vaccinated when they interact to determine
         # exactly what happened in the interaction and create a String, and write to your logfile.
-        pass
+        log_file = open(self.file_name, "a")
+        line = f"Step number: {step_number}, Number of Interactions: {number_of_interactions}, Number of New Infections{number_of_new_infections} \n"
+        log_file.write(line)
+        log_file.close()
 
     def log_infection_survival(self, step_number, population_count, number_of_new_fatalities):
         # TODO: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
-        pass
+        line = f"Step number: {step_number}, Population Count: {population_count}, Number of New Fatalities{number_of_new_fatalities} \n"
+        log_file = open(self.file_name, "a")
+        log_file.write(line)
+        log_file.close()
 
     def log_time_step(self, time_step_number):
         # 
-        pass
+        line = f"Time Step Number: {time_step_number} \n"
+        log_file = open(self.file_name, "a")
+        log_file.write(line)
+        log_file.close()

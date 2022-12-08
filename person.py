@@ -5,7 +5,7 @@ from virus import Virus
 
 class Person(object):
     # Define a person. 
-    def __init__(self, _id, is_vaccinated, infection = None):
+    def __init__(self, _id, is_vaccinated, infection):
         # A person has an id, is_vaccinated and possibly an infection
         self._id = _id  # int
         # TODO Define the other attributes of a person here
@@ -23,10 +23,11 @@ class Person(object):
         # Set their properties to show this
         # TODO: The method Should return a Boolean showing if they survived.
 
-        infection_chance = random.randint(0.0, 1.0)
+        infection_chance = random.random()
 
         if self.infection: 
             if infection_chance < self.infection.mortality_rate:
+                # print(infection_chance)
                 self.is_alive = False
             else: 
                 self.is_alive = True
@@ -51,9 +52,6 @@ if __name__ == "__main__":
     assert unvaccinated_person.is_alive is True
     assert unvaccinated_person.is_vaccinated is False 
     assert unvaccinated_person.infection is None
-
-    # ask about this section 
-    
 
     # Test an infected person. An infected person has an infection/virus
     # Create a Virus object to give a Person object an infection
@@ -83,7 +81,7 @@ if __name__ == "__main__":
     # survives the infection or not by looping over the people list. 
 
     # Count the people that survived and did not survive: 
-    did_survived = 0
+    did_survive = 0
     did_not_survive = 0
 
     # TODO Loop over all of the people 
@@ -98,14 +96,14 @@ if __name__ == "__main__":
         else: 
             did_not_survive += 1
 
-    
-     # TODO When the loop is complete print your results.
+    # TODO When the loop is complete print your results.
     # The results should roughly match the mortality rate of the virus
     # For example if the mortality rate is 0.2 rough 20% of the people 
     # should succumb. 
-
+    test_mortality = (did_survive/did_not_survive)
     print(f'the number of people that survived is: {did_survive}')
     print(f'the number of people that did not survive is: {did_not_survive}')
+    print(f'mortality rate: {virus.mortality_rate}, our mortality rate:{test_mortality}')
 
 
     # Stretch challenge! 
